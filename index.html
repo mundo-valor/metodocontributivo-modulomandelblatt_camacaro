@@ -147,38 +147,42 @@
       border: none;
     }
 
+    /* Botones optimizados con texto blanco puro para máxima legibilidad */
     .btn-gold {
-      background: linear-gradient(135deg, #d97706, #f59e0b);
-      color: #000;
-      box-shadow: 0 4px 15px rgba(245, 158, 11, 0.3);
+      background: linear-gradient(135deg, #b45309, #d97706);
+      color: #ffffff;
+      box-shadow: 0 4px 15px rgba(217, 119, 6, 0.4);
     }
 
     .btn-gold:hover {
       transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(245, 158, 11, 0.45);
+      box-shadow: 0 6px 20px rgba(217, 119, 6, 0.6);
+      background: linear-gradient(135deg, #d97706, #f59e0b);
     }
 
     .btn-sim {
-      background: linear-gradient(135deg, #059669, #10b981);
+      background: linear-gradient(135deg, #047857, #059669);
       color: #ffffff;
-      box-shadow: 0 4px 15px rgba(16, 185, 129, 0.35);
+      box-shadow: 0 4px 15px rgba(5, 150, 105, 0.4);
     }
 
     .btn-sim:hover {
       transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(16, 185, 129, 0.55);
+      box-shadow: 0 6px 20px rgba(5, 150, 105, 0.6);
+      background: linear-gradient(135deg, #059669, #10b981);
     }
 
     .btn-donate {
-      background: linear-gradient(135deg, #0070ba, #003087);
+      background: linear-gradient(135deg, #1d4ed8, #2563eb);
       color: #ffffff;
-      box-shadow: 0 4px 15px rgba(0, 112, 186, 0.35);
-      border: 1px solid rgba(255, 255, 255, 0.2);
+      box-shadow: 0 4px 15px rgba(37, 99, 235, 0.4);
+      border: 1px solid rgba(255, 255, 255, 0.25);
     }
 
     .btn-donate:hover {
       transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(0, 112, 186, 0.55);
+      box-shadow: 0 6px 20px rgba(37, 99, 235, 0.6);
+      background: linear-gradient(135deg, #2563eb, #3b82f6);
     }
 
     .btn-outline {
@@ -470,7 +474,7 @@
       flex-grow: 1;
     }
 
-    /* Botón optimizado para alta visibilidad y contraste */
+    /* Botón optimizado dentro de las tarjetas */
     .fabula-card .f-btn {
       display: inline-flex;
       align-items: center;
@@ -761,60 +765,60 @@
         </div>
 
         <div class="fabulas-grid">
-          <!-- Capítulo 2: El Factor de Contribución (Pág 47 del PDF) -->
-          <div class="fabula-card" onclick="goToPdfPage(47)">
+          <!-- 2. El Factor de Contribución [2; 35; 53] -->
+          <div class="fabula-card" onclick="goToPdfPage(53)">
             <div>
-              <div class="f-num">CAPÍTULO 2 • PÁG. 47</div>
+              <div class="f-num">SECCIÓN 2 • PÁG. 35 (PDF: 53)</div>
               <h4>El Factor de Contribución</h4>
               <p>Estudio de los orígenes de la tierra, principios de contribución, mayor y mejor uso, ordenación urbanística, indicadores de aprovechamiento del terreno y demostración empírica de su cálculo porcentual.</p>
             </div>
             <div class="f-btn">📖 Leer sección ➔</div>
           </div>
 
-          <!-- Capítulo 3: El Factor de Comercialización (Pág 87 del PDF) -->
-          <div class="fabula-card" onclick="goToPdfPage(87)">
+          <!-- 3. El Factor de Comercialización [3; 75; 93] -->
+          <div class="fabula-card" onclick="goToPdfPage(93)">
             <div>
-              <div class="f-num">CAPÍTULO 3 • PÁG. 87</div>
+              <div class="f-num">SECCIÓN 3 • PÁG. 75 (PDF: 93)</div>
               <h4>El Factor de Comercialización</h4>
               <p>Revisión de antecedentes iberoamericanos, experiencia venezolana, análisis normativo comparado y demostración matemática del uso del factor de comercialización sobre los inmuebles.</p>
             </div>
             <div class="f-btn">📖 Leer sección ➔</div>
           </div>
 
-          <!-- Capítulo 4: La Tasación inmobiliaria (Pág 161 del PDF) -->
-          <div class="fabula-card" onclick="goToPdfPage(161)">
+          <!-- 4. La Tasación inmobiliaria [4; 157; 175] -->
+          <div class="fabula-card" onclick="goToPdfPage(175)">
             <div>
-              <div class="f-num">CAPÍTULO 4 • PÁG. 161</div>
+              <div class="f-num">SECCIÓN 4 • PÁG. 157 (PDF: 175)</div>
               <h4>La Tasación inmobiliaria</h4>
               <p>Enfoques y métodos fundamentales de la tasación: método comparativo de mercado con estadística inferencial, método del costo nuevo de reproducción y procedimientos del valor de mercado.</p>
             </div>
             <div class="f-btn">📖 Leer sección ➔</div>
           </div>
 
-          <!-- Capítulo 5: El Método Contributivo (Pág 211 del PDF) -->
-          <div class="fabula-card" onclick="goToPdfPage(211)">
+          <!-- 5. El Método Contributivo [5; 199; 217] -->
+          <div class="fabula-card" onclick="goToPdfPage(217)">
             <div>
-              <div class="f-num">CAPÍTULO 5 • PÁG. 211</div>
+              <div class="f-num">SECCIÓN 5 • PÁG. 199 (PDF: 217)</div>
               <h4>El Método Contributivo</h4>
               <p>Desarrollo matemático completo del Modelo Mandelblatt-Camacaro aplicado paso a paso a viviendas unifamiliares, apartamentos, locales comerciales, galpones y terrenos.</p>
             </div>
             <div class="f-btn">📖 Leer sección ➔</div>
           </div>
 
-          <!-- Capítulo 7: Enfoque probabilístico del método contributivo (Pág 319 del PDF) -->
-          <div class="fabula-card" onclick="goToPdfPage(319)">
+          <!-- 7. Enfoque probabilístico del método contributivo [7; 305; 323] -->
+          <div class="fabula-card" onclick="goToPdfPage(323)">
             <div>
-              <div class="f-num">CAPÍTULO 7 • PÁG. 319</div>
+              <div class="f-num">SECCIÓN 7 • PÁG. 305 (PDF: 323)</div>
               <h4>Enfoque probabilístico del método contributivo</h4>
               <p>Aplicación del Método de Monte Carlo para la simulación de escenarios, obtención de resultados probabilísticos del valor del inmueble y determinación de intervalos de confianza.</p>
             </div>
             <div class="f-btn">📖 Leer sección ➔</div>
           </div>
 
-          <!-- 8. Anexos (Pág 347 del PDF) -->
-          <div class="fabula-card" onclick="goToPdfPage(347)">
+          <!-- 8. Anexos [8; 335; 353] -->
+          <div class="fabula-card" onclick="goToPdfPage(353)">
             <div>
-              <div class="f-num">CAPÍTULO 8 • PÁG. 347</div>
+              <div class="f-num">SECCIÓN 8 • PÁG. 335 (PDF: 353)</div>
               <h4>8. Anexos</h4>
               <p>Informes de avalúos completos de locales comerciales y apartamentos, aplicaciones para fines de arrendamiento comercial, revisión de informes y papel de trabajo sobre la importancia de las ofertas inmobiliarias.</p>
             </div>
