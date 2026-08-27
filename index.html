@@ -470,13 +470,30 @@
       flex-grow: 1;
     }
 
+    /* Botón optimizado para alta visibilidad y contraste */
     .fabula-card .f-btn {
-      color: #60a5fa;
-      font-weight: 700;
-      font-size: 0.85rem;
       display: inline-flex;
       align-items: center;
-      gap: 0.3rem;
+      justify-content: center;
+      gap: 0.5rem;
+      background: linear-gradient(135deg, #1e3a8a, #1d4ed8);
+      color: #ffffff;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      font-weight: 700;
+      font-size: 0.85rem;
+      border: 1px solid rgba(96, 165, 250, 0.4);
+      box-shadow: 0 2px 8px rgba(29, 78, 216, 0.3);
+      transition: all 0.2s ease;
+      text-align: center;
+      width: 100%;
+    }
+
+    .fabula-card:hover .f-btn {
+      background: linear-gradient(135deg, #d97706, #f59e0b);
+      color: #000000;
+      border-color: var(--accent-gold);
+      box-shadow: 0 4px 12px rgba(245, 158, 11, 0.4);
     }
 
     /* Online Reader Viewport */
@@ -751,7 +768,7 @@
               <h4>El Factor de Contribución</h4>
               <p>Estudio de los orígenes de la tierra, principios de contribución, mayor y mejor uso, ordenación urbanística, indicadores de aprovechamiento del terreno y demostración empírica de su cálculo porcentual.</p>
             </div>
-            <div class="f-btn">Leer sección ➔</div>
+            <div class="f-btn">📖 Leer sección ➔</div>
           </div>
 
           <!-- Capítulo 3: El Factor de Comercialización (Pág 87 del PDF) -->
@@ -761,7 +778,7 @@
               <h4>El Factor de Comercialización</h4>
               <p>Revisión de antecedentes iberoamericanos, experiencia venezolana, análisis normativo comparado y demostración matemática del uso del factor de comercialización sobre los inmuebles.</p>
             </div>
-            <div class="f-btn">Leer sección ➔</div>
+            <div class="f-btn">📖 Leer sección ➔</div>
           </div>
 
           <!-- Capítulo 4: La Tasación inmobiliaria (Pág 161 del PDF) -->
@@ -771,7 +788,7 @@
               <h4>La Tasación inmobiliaria</h4>
               <p>Enfoques y métodos fundamentales de la tasación: método comparativo de mercado con estadística inferencial, método del costo nuevo de reproducción y procedimientos del valor de mercado.</p>
             </div>
-            <div class="f-btn">Leer sección ➔</div>
+            <div class="f-btn">📖 Leer sección ➔</div>
           </div>
 
           <!-- Capítulo 5: El Método Contributivo (Pág 211 del PDF) -->
@@ -781,7 +798,7 @@
               <h4>El Método Contributivo</h4>
               <p>Desarrollo matemático completo del Modelo Mandelblatt-Camacaro aplicado paso a paso a viviendas unifamiliares, apartamentos, locales comerciales, galpones y terrenos.</p>
             </div>
-            <div class="f-btn">Leer sección ➔</div>
+            <div class="f-btn">📖 Leer sección ➔</div>
           </div>
 
           <!-- Capítulo 7: Enfoque probabilístico del método contributivo (Pág 319 del PDF) -->
@@ -791,7 +808,17 @@
               <h4>Enfoque probabilístico del método contributivo</h4>
               <p>Aplicación del Método de Monte Carlo para la simulación de escenarios, obtención de resultados probabilísticos del valor del inmueble y determinación de intervalos de confianza.</p>
             </div>
-            <div class="f-btn">Leer sección ➔</div>
+            <div class="f-btn">📖 Leer sección ➔</div>
+          </div>
+
+          <!-- 8. Anexos (Pág 347 del PDF) -->
+          <div class="fabula-card" onclick="goToPdfPage(347)">
+            <div>
+              <div class="f-num">CAPÍTULO 8 • PÁG. 347</div>
+              <h4>8. Anexos</h4>
+              <p>Informes de avalúos completos de locales comerciales y apartamentos, aplicaciones para fines de arrendamiento comercial, revisión de informes y papel de trabajo sobre la importancia de las ofertas inmobiliarias.</p>
+            </div>
+            <div class="f-btn">📖 Leer sección ➔</div>
           </div>
         </div>
       </div>
