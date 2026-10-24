@@ -172,6 +172,18 @@
       background: linear-gradient(135deg, #059669, #10b981);
     }
 
+    .btn-esc {
+      background: linear-gradient(135deg, #6d28d9, #7c3aed);
+      color: #ffffff;
+      box-shadow: 0 4px 15px rgba(124, 58, 237, 0.4);
+    }
+
+    .btn-esc:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(124, 58, 237, 0.6);
+      background: linear-gradient(135deg, #7c3aed, #8b5cf6);
+    }
+
     .btn-donate {
       background: linear-gradient(135deg, #1d4ed8, #2563eb);
       color: #ffffff;
@@ -658,7 +670,8 @@
         <a href="#obra">La Obra</a>
         <a href="#autor">El Autor</a>
         <a href="#capitulos">Estructura</a>
-        <a href="https://mundo-valor.github.io/metodo-contributivo/" target="_blank" rel="noopener noreferrer" class="btn btn-sim">🧮 Simulador</a>
+        <a href="https://mundo-valor.github.io/metodo-contributivo/" target="_blank" rel="noopener noreferrer" class="btn btn-sim">🧮 Simulador Base</a>
+        <a href="https://mundo-valor.github.io/simulador_mandelblattcamacaro/" target="_blank" rel="noopener noreferrer" class="btn btn-esc">🎲 Simulador Escenarios</a>
         <a href="#lector" class="btn btn-gold">📖 Leer Online</a>
         <a href="https://paypal.me/spilimcurso" target="_blank" rel="noopener noreferrer" class="btn btn-donate">☕ Donar</a>
       </nav>
@@ -677,7 +690,8 @@
           </p>
           <div class="hero-btns">
             <a href="#lector" class="btn btn-gold">Iniciar Lectura Online</a>
-            <a href="https://mundo-valor.github.io/metodo-contributivo/" target="_blank" rel="noopener noreferrer" class="btn btn-sim">Probar Simulador Web</a>
+            <a href="https://mundo-valor.github.io/metodo-contributivo/" target="_blank" rel="noopener noreferrer" class="btn btn-sim">Probar Simulador Base</a>
+            <a href="https://mundo-valor.github.io/simulador_mandelblattcamacaro/" target="_blank" rel="noopener noreferrer" class="btn btn-esc">Probar Simulador Escenarios</a>
             <a href="#obra" class="btn btn-outline">Ver Presentación</a>
           </div>
         </div>
@@ -844,7 +858,8 @@
               📖 <span id="doc-title">El Método Contributivo en los Avalúos Inmobiliarios</span>
             </div>
             <div class="reader-controls-group">
-              <a href="https://mundo-valor.github.io/metodo-contributivo/" target="_blank" rel="noopener noreferrer" class="btn btn-sim" style="padding:0.4rem 0.8rem; font-size:0.8rem;">🧮 Simulador Web</a>
+              <a href="https://mundo-valor.github.io/metodo-contributivo/" target="_blank" rel="noopener noreferrer" class="btn btn-sim" style="padding:0.4rem 0.8rem; font-size:0.8rem;">🧮 Simulador Base</a>
+              <a href="https://mundo-valor.github.io/simulador_mandelblattcamacaro/" target="_blank" rel="noopener noreferrer" class="btn btn-esc" style="padding:0.4rem 0.8rem; font-size:0.8rem;">🎲 Simulador Escenarios</a>
               <button class="btn btn-outline" style="padding:0.4rem 0.8rem;" onclick="toggleViewMode()" id="view-mode-btn">📄 Página Simple</button>
               <button class="btn btn-outline" style="padding:0.4rem 0.8rem;" onclick="zoom(-0.15)">🔍 -</button>
               <span class="zoom-label" id="zoom-text">140%</span>
